@@ -1,0 +1,537 @@
+/*  style */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.padding-50 {
+    padding-bottom: 50px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-item .nav-link {
+    color: #005E5E;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+
+.login-button {
+    color: #fff !important;
+    background: #005E5E 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    width: 150px;
+    text-align: center;
+}
+.login-button:hover {
+    background: #ff8939;
+    color: #fff;
+}
+.banner {
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-content {
+    position: absolute;
+    top: 30%;
+    max-width: 500px;
+    width: 100%;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider-content h1 {
+    color: #005E5E;
+    font-weight: 700;
+}
+
+.slider-content span {
+    color: #FF8939;
+}
+
+.slider-content h2 {
+    border-bottom: 3px solid #005E5E;
+    width: fit-content;
+    padding-bottom: 15px;
+}
+
+.hero-banner .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    left: 8%;
+    bottom: 20%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #FF8939;
+    width: 21px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 13px;
+    height: 13px;
+}
+
+.easy-axon-title img {
+    height: 39px;
+}
+
+.easy-axon-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0D0D0D;
+}
+
+.easy-axon-title span {
+    color: #005E5E;
+}
+/*   daily rental search section  */
+.daily-rental {
+    border-radius: 10px !important;
+    margin-top: -30px !important;
+    position: relative;
+    z-index: 111;
+    width: 100%;
+}
+.searchTabs .form-group {
+    display: flex;
+    align-items: center;
+}
+.select-icon {
+    height: 36px;
+    margin: 9px;
+}
+.label_ico {
+    color: #889F9F;
+    font-size: 16px;
+}
+.label_ico i {
+    color: #005e5e;
+}
+.searchTabs label div {
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn-find {
+    background: #005E5E 0% 0% no-repeat;
+    border-radius: 100px 0px 0px 100px;
+    color: #fff;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    font-size: 15px;
+}
+.btn-find:hover {
+    background: #ff8939;
+    color: #fff;
+}
+.single-line {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+
+
+/*   best offer  */
+.best-offer {
+    background: transparent linear-gradient(180deg, #F6FFFF 0%, #FFFFFF 100%) 0% 0% no-repeat;
+}
+
+.offer-card-panel {
+    background: #fff;
+    box-shadow: 0px 5px 12px #005E5E1F;
+    border-radius: 24px;
+}
+
+.offer-tags {
+    background: #005E5E 0% 0% no-repeat;
+    border-radius: 0px 0px 25px 25px;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.offer-tags .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #005E5E;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 600;
+}
+
+.offer-tags .nav-item .nav-link {
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 0px;
+}
+
+.offer-icon img {
+    height: 60px;
+}
+
+.offer-card .card-title {
+    color: #FF3939;
+}
+
+.offer-card .card-text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 205px;
+}
+
+.offer-footer h5 {
+    font-size: 23px;
+    color: #889F9F;
+    font-weight: 600;
+}
+
+.offer-code {
+    color: #889F9F;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.offer-footer {
+    padding-top: 30px;
+}
+
+.offer-carousel {
+    padding: 50px;
+}
+
+.offer-card .card-body {
+    border: none;
+    position: absolute;
+    top: 21%;
+    left: 59px;
+    bottom: 0;
+}
+
+.offer-card {
+    position: relative;
+}
+
+/*   Most Booked  */
+.section-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.car-card {
+    border: none;
+    box-shadow: 0px 5px 12px #005E5E1F;
+    border-radius: 24px;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    border-top: 1px solid #ccc;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #6c757d;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.card-link {
+    display: inline-block;
+    color: #01796f;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    padding: 7px;
+    bottom: 0;
+    transition: all 0.5s;
+    background: #F0F5F5 0% 0% no-repeat;
+    border-radius: 10px 0px;
+    font-size: 14px;
+}
+.card-link:hover {
+    background: #01796f;
+    color: #fff;
+}
+
+.card-link:hover .ch-right {
+    padding-left: 5px;
+    transition: all 0.5s;
+}
+/*  icon Why ride with Axon icon section  */
+.pad-60{
+    padding: 60px 0px;
+}
+.ride-grid h4 {
+    font-size: 19px;
+    color: #ff8939;
+    font-weight: 500;
+    margin: 20px 0px 10px;
+}
+.ride-grid p {
+    font-size: 14px;
+    color: #fff;
+}
+.ride-grid img {
+    height: 51px;
+}
+.ride-section{
+    position: relative;
+    background: #000;
+}
+.ride-grid {
+    padding: 30px;
+}
+.ride-title {
+    color: #fff;
+}
+.ride-title span {
+    color: #ff8939;
+}
+.ride-section video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.video-pnl {
+    position: relative;
+    overflow: hidden;
+    margin-top: -35%;
+}
+.video-offers {
+    height: 500px;
+    background-attachment: fixed;
+}
+.video-offers:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #00000082;
+    position: absolute;
+    top: 0;
+}
+
+/*  What Client Say For Axon section  */
+.padding-60 {
+    padding: 60px 0px;
+}
+.client-section {
+    background: #FCFDFD 0% 0% no-repeat;
+}
+.testimonial_title {
+    padding: 3rem 0 0.1rem 0;
+    background: #005e5e17 0% 0% no-repeat;
+    border-radius: 24px 24px 0px 0px;
+}
+.testimonial_card {
+    position: relative;
+    margin: 30px 0px;
+}
+.testi-body {
+    padding: 20px;
+}
+.client-card{
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 5px 12px #005E5E1F;
+    border-radius: 24px;
+    margin-top: -40px;
+}
+
+.header_testimonial {
+    position: relative;
+}
+.client-box {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: auto;
+    background: #fff;
+    position: relative;
+    z-index: 111;
+}
+.pink-pnl {
+    background: #fff1e7 0% 0% no-repeat;
+}
+.header_testimonial:after {
+    content: '';
+    display: block;
+    background: url(../../../assets/images/right.svg) no-repeat;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    width: 65px;
+    left: 20px;
+    opacity: 0.2;
+}
+.header_testimonial::before {
+    content: '';
+    display: block;
+    background: url(../../../assets/images/left.svg) no-repeat;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    width: 65px;
+    right: 20px;
+    opacity: 0.2;
+}
+
+/* client rating section */
+.rating-count {
+    background: #005E5E 0% 0% no-repeat;
+    padding: 40px 0px;
+}
+.count-pnl h5 {
+    color: #FF8939;
+    font-size: 30px;
+    font-weight: 700;
+}
+.count-pnl p {
+    color: #fff;
+}
+
+/* Faqs section */
+.faqtabs .accordion-item {
+    border: none !important;
+    margin-bottom: 20px !important;
+}
+.faqtabs .accordion-button {
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 5px 12px #005E5E1F;
+    border-radius: 10px !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+.faqtabs .accordion-button::after{
+    transform: rotate(270deg);
+}
+
+.accordion-body {
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 5px 12px #005E5E1F;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background: #009688 !important;
+}
+
+/* footer section */
+
+footer {
+    background: transparent linear-gradient(180deg, #005E5E 0%, #003030 100%) 0% 0% no-repeat;
+    padding: 30px 0px 0px;
+    color: #fff;
+}
+
+.footer-content li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+.axon-footer img {
+    height: 56px;
+    margin-bottom: 30px;
+}
+
+.axon-footer p {
+    font-size: 13px;
+    padding-right: 80px;
+}
+
+.contact-pnl li {
+    display: flex;
+    font-size: 13px;
+}
+
+.contact-pnl li i {
+    color: #FF8939;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.footer-content h5 {
+    font-size: 17px;
+    margin: 20px 0px;
+}
+
+.footer-content h5:after {
+    content: '';
+    width: 53px;
+    background: #FF8939;
+    height: 4px;
+    display: block;
+    margin: 9px 0px;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0px;
+    border-top: 2px dashed #dddddd52;
+}
+
+.copy-content img {
+    height: 34px;
+}
+
+.copy-content {
+    font-size: 13px;
+}
+.road-image {
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0px 0px;
+}
+.road-image img {
+    margin-top: -15px;
+    animation: moveCar 15s linear infinite;
+}
+@keyframes moveCar {
+    0% { left: -100px; } 
+    100% { left: calc(100% + 50px); } 
+}
+
+.car-icon {
+    height: 70px;
+    position: relative;
+    margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+

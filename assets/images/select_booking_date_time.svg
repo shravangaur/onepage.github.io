@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="select_booking_date_time" transform="translate(-309 -849)">
+    <rect id="Rectangle_873" data-name="Rectangle 873" width="48" height="48" rx="8" transform="translate(309 849)" fill="#f1f8f8"/>
+    <g id="Group_5093" data-name="Group 5093" transform="translate(317 857.01)">
+      <path id="Path_567" data-name="Path 567" d="M25.55,8.93a4.331,4.331,0,0,0-4.32-4.32H20.16V7.24a1,1,0,1,1-2,0V4.61H9.39V7.24a1,1,0,0,1-2,0V4.61H6.32A4.336,4.336,0,0,0,2,8.93v.66H25.55ZM6.32,26.54h8.99A8.954,8.954,0,0,1,25.55,13.47V11.59H2V22.23a4.319,4.319,0,0,0,4.32,4.31Z" fill="#889f9f"/>
+      <path id="Path_568" data-name="Path 568" d="M9.39,3.99a1,1,0,0,0-2,0v.62h2Zm10.77,0a1,1,0,0,0-2,0v.62h2Zm2.89,11.13A6.945,6.945,0,1,0,30,22.07,6.952,6.952,0,0,0,23.05,15.12Zm1.97,7.95H23.05a1,1,0,0,1-1-1V20.01a1,1,0,0,1,2,0v1.06h.97a1,1,0,0,1,0,2Z" fill="#889f9f"/>
+    </g>
+  </g>
+</svg>
